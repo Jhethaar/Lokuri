@@ -44,6 +44,11 @@ img {
   width: 100%;
 }
 
+.hidden {
+  visibility: hidden;
+  height: 0;
+}
+
 /* Navbar */
 .navbar {
   background-color: var(--primary-color);
@@ -365,5 +370,8 @@ img {
   }
   .navbar ul {
     background-color: rgba(0, 0, 0, 0.1);
+  }
+  .top-section-form {
+    width: 300px;
   }
 }
